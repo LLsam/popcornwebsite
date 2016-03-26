@@ -1,0 +1,130 @@
+* {
+    background: transparent !important;
+    color: black !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+    font-family: Helvetica, Arial, sans-serif !important;
+}
+a, a:visited {
+    color: #444 !important;
+    text-decoration: underline;
+}
+pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+}
+thead { display: table-header-group; }
+tr, img { page-break-inside: avoid; }
+p, h2, h3 { orphans: 3; widows: 3; }
+h2, h3 { page-break-after: avoid; }
+
+.header-container.header-panel {
+	height:30px;
+	line-height:30px;
+}
+#nav-wrapper,
+.quick-access,
+.social-links,
+.top-links,
+.hotspot-content,
+.footer-container,
+.social-sharing,
+.add-to-box,
+.extras.accordion,
+.link-update,
+.link-print,
+.link-reorder,
+.btn-remove.btn-remove2,
+.btn-continue,
+.checkout-types,
+.separator,
+.tanline,
+.buttons-set,
+.col-left.sidebar {
+	display: none;
+}
+#shopping_cart_form {
+	width: 100% !important;
+}
+.sales-order-creditmemo.customer-account .col-main,
+.sales-order-view.customer-account .col-main,
+.sales-order-shipment.customer-account .col-main,
+.sales-order-invoice.customer-account .col-main{
+	width: 100%;
+	font-size: 10px;
+}
+
+.sales-order-view.customer-account .col-main .col-1,
+.sales-order-view.customer-account .col-main .col1-set,
+.sales-order-view.customer-account .col-main .col-2,
+.sales-order-view.customer-account .col-main .col2-set,
+.sales-order-shipment.customer-account .col-main .col-1,
+.sales-order-shipment.customer-account .col-main .col1-set,
+.sales-order-shipment.customer-account .col-main .col-2,
+.sales-order-shipment.customer-account .col-main .col2-set,
+.sales-order-invoice.customer-account .col-main .col-1,
+.sales-order-invoice.customer-account .col-main .col1-set,
+.sales-order-invoice.customer-account .col-main .col-2,
+.sales-order-invoice.customer-account .col-main .col2-set,
+.page-print.sales-order-print .col-1,
+.page-print.sales-order-print .col1-set,
+.page-print.sales-order-print .col-2,
+.page-print.sales-order-print .col2-set,
+.page-print.page-print.sales-order-printinvoice .col-1,
+.page-print.page-print.sales-order-printinvoice .col1-set,
+.page-print.page-print.sales-order-printinvoice .col-2,
+.page-print.page-print.sales-order-printinvoice .col2-set,
+.page-print.page-print.page-print.sales-order-printshipment .col-1,
+.page-print.page-print.page-print.sales-order-printshipment .col1-set,
+.page-print.page-print.page-print.sales-order-printshipment .col-2,
+.page-print.page-print.page-print.sales-order-printshipment .col2-set{
+	margin-top: 20px !important;
+}
+.sales-order-creditmemo.customer-account .col-main .col2-set.order-info-box .col-1 .box,
+.sales-order-creditmemo.customer-account .col-main .col2-set.order-info-box .col-2 .box,
+.sales-order-creditmemo.customer-account .col-main .col2-set.order-info-box .col-1 .box,
+.sales-order-creditmemo.customer-account .col-main .col2-set.order-info-box .col-2 .box,
+.sales-order-shipment.customer-account .col-main .col2-set.order-info-box .col-1 .box,
+.sales-order-shipment.customer-account .col-main .col2-set.order-info-box .col-2 .box,
+.sales-order-invoice.customer-account .col-main .col2-set.order-info-box .col-1 .box,
+.sales-order-invoice.customer-account .col-main .col2-set.order-info-box .col-2 .box,
+.page-print.sales-order-print .col2-set .col-1 .box,
+.page-print.sales-order-print .col2-set .col-2 .box{
+	height: 130px;
+}
+
+p.order-date {float:right;}
+
+.page-title.title-buttons h1 {
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+
+.nav.tabby-tabs li {
+	display: none;
+}
+.page-print.sales-order-print,
+.page-print.sales-order-printinvoice,
+.page-print.sales-order-printshipment {
+	font-size: 12px;
+}
+.page-print.sales-order-print h1,
+.page-print.sales-order-printinvoice h1,
+.page-print.sales-order-printshipment h1 {
+	font-size: 18px;
+}
+.page-print.sales-order-print h2,
+.page-print.sales-order-printinvoice h2,
+.page-print.sales-order-printshipment h2 {
+	font-size: 16px;
+}
+.page-print.sales-order-print h3,
+.page-print.sales-order-printinvoice h3,
+.page-print.sales-order-printshipment h3 {
+	font-size: 14px;
+}
+
+div.print-head {
+	text-align: center;
+}
